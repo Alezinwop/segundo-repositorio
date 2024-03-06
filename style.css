@@ -2,10 +2,12 @@
     margin: 0;
     padding: 0;
 }
+
 header {
     background-color: blueviolet;
     color: white;
 } 
+
 .cabecalho {
     background-color: blueviolet;
     color: white;
@@ -13,6 +15,10 @@ header {
     justify-content: space-around;
     align-items: center;
     padding: 24px 0;
+}
+
+.cabecalho-imagem {
+    width: 20%;
 }
 
 .cabecalho.lista-item {
