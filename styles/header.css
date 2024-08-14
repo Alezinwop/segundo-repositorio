@@ -23,6 +23,7 @@
 
 .cabecalho-imagem{
     padding: 1em;
+    width: 40px; //tamanho da logo
 }
 
 .container__imagem{
@@ -35,7 +36,7 @@
     background-color: var(--cor-fundo);
     position: absolute;
     top: 100%;
-    width: 50vm;
+    width: 50vw;
 }
 
 .container__botao:checked~.cabecalho-lista{
