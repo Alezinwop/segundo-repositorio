@@ -1,8 +1,6 @@
-.flashcard{
-    background-color: var(#7c37ef);
-}
 
 #flashcard{
+    background-color: var(#7c37ef);
     display: flex;
 }
 
