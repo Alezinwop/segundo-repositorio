@@ -7,22 +7,19 @@ function criaCartao (item, pergunta,resposta) {
     cartao.className = 'cartao';
 
     cartao.innerHTML = 
-   <div class="cartao__conteudo">
-        <h3>Missão</h3>
-    </div>
+    <div class="cartao__conteudo">
+    <h3>${item}</h3>
+
     <div class="cartao__conteudo__pergunta">
-      <p>Saiba qual é a Missão de noesaaaaa</p>  
+
+    <p>${pergunta}</p>  
     </div>
 
     <div class="cartao__conteudo__resposta"> 
-        <p> Nossa Missão é ...</p>
+    <p>${resposta}</p>
      </div>
     </div>
 
     flashcard.appendChield(cartao);
  
-
-
-
-
 }
