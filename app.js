@@ -1,7 +1,7 @@
 function criaCartao (item, pergunta,resposta) {
     //console.log(item,pergunta, resposta)
     
-    let flashcard = document.getElementById('flashcard');
+    let flashcard = document.getElementById('#flashcard');
     let cartao = document.createElement('article');
 
     cartao.className = 'cartao';
